@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+   /* border: 1px solid black; */
+}
+p{
+    text-align-last: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+}
+h5{
+    text-transform: uppercase;
+}
+h4{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+h6{
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.carousel-inner img{
+    width: 650px;
+    height: 700px;
+}
+.navbar-brand img{
+    border-radius: 50%;
+} 
+.footer-nav ul{
+  list-style: none;
+  
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #cac7c7;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 60px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #cac7c7;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #E1306C;
+  }
+  .blink{
+    animation: blink 1s steps(1, end) infinite;
+  }
+
+  @keyframes blink {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .nav-item a{
+    color: white;
+  }
+  .card-text{
+    text-align: center;
+  }
+  .card{
+    transition: 1s;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+  }
+  .clickhere{
+    font-size: 25px ;
+  }
+  .shopee{
+    width: 50px;
+    transition: 1s;
+  }
+  .shopee:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  h3{
+    display: flex;
+    text-align: center;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    left: 40%;
+  }
+  form img{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    top: 30%;
+    right: 5%;
+    z-index: 0;
+  }
