@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <title>Home S.O.S Website</title>
     <link rel="icon" type="image/x-icon" href="resources/head.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-----Navigation Bar-->
@@ -89,7 +90,7 @@
   </div>
   <br>
   <div class="container-fluid d-flex position-relative justify-content-center">
-      <img src="Events/e4.png" class="img-fluid" alt="...">
+    <a href="contact.php"> <img src="Events/e4.png" class="img-fluid" alt="..."></a>
   </div>
   <br><br>
 
@@ -114,7 +115,5 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
- 
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

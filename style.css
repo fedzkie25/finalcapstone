@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-    font-size: medium;
+    /*font-size: medium;*/
    /* border: 1px solid black; */
 }
 p{
@@ -24,7 +24,7 @@ h6{
   text-align: center;
   margin-top: 10px;
   padding-top: 10px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .carousel-inner img{
@@ -36,7 +36,10 @@ h6{
 } 
 .footer-nav ul{
   list-style: none;
-  
+}
+footer a{
+  text-decoration: none;
+  color: black;
 }
 .wrapper .button{
     display: inline-block;
